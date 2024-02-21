@@ -1,4 +1,5 @@
-<h2><a href="https://leetcode.com/problems/maximum-repeating-substring/description/">1668. Maximum Repeating Substring</a></h2><h3>Easy</h3><hr><div>
+<h2><a href="https://leetcode.com/problems/maximum-repeating-substring/description/">1668. Maximum Repeating Substring</a></h2>
+<h3>Medium</h3><hr><div>
 
 <p>For a string <code>sequence</code>, a string <code>word</code> is <code>k</code>-repeating if <code>word</code> concatenated k times is a substring of <code>sequence</code>.
  The word's maximum <code>k</code>-repeating value is the highest value <code>k</code> where word is <code>k</code>-repeating in <code>sequence</code>.
