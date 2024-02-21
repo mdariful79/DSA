@@ -9,7 +9,7 @@ Given two integers left and right that represent the range [left, right], return
 
 #### Example 1:
 ````
-<b>Input:</b> left = 5, right = 7
+Input: left = 5, right = 7
 Output: 4
 ````
 #### Example 2:
