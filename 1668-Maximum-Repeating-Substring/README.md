@@ -4,7 +4,7 @@
  The word's maximum <code>k</code>-repeating value is the highest value <code>k</code> where word is <code>k</code>-repeating in <code>sequence</code>.
  If word is not a substring of <code>sequence</code>, word's maximum <code>k</code>-repeating value is 0.</p>
 
-<p>Given strings <code>sequence</code> and <code>word</code>, return the maximum <code>k<code>-repeating value of word in sequence.</p>
+<p>Given strings <code>sequence</code> and <code>word</code>, return the maximum <code>k</code>-repeating value of word in sequence.</p>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
