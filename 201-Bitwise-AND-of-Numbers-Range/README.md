@@ -1,40 +1,28 @@
-# [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/?envType=daily-question&envId=2024-02-22)
+# [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/description/?envType=daily-question&envId=2024-02-21)
 
 ## Medium
 
-In a town, there are n people labeled from 1 to n. There is a rumor that one of these people is secretly the town judge.
-If the town judge exists, then:
-The town judge trusts nobody.
-Everybody (except for the town judge) trusts the town judge.
-There is exactly one person that satisfies properties 1 and 2.
-You are given an array trust where trust[i] = [ai, bi] representing that the person labeled ai trusts the person labeled bi. If a trust relationship does not exist in trust array, then such a trust relationship does not exist.
+Given two integers left and right that represent the range [left, right], return the bitwise AND of all numbers in this range, inclusive.
 
-Return the label of the town judge if the town judge exists and can be identified, or return -1 otherwise.
 
 
 
 #### Example 1:
 ````
-Input: n = 2, trust = [[1,2]]
-Output: 2
+Input: left = 5, right = 7
+Output: 4
 ````
 #### Example 2:
 `````
-Input: n = 3, trust = [[1,3],[2,3]]
-Output: 3
+Input: left = 0, right = 0
+Output: 0
 `````
 #### Example 3:
 ```` 
-Input: n = 3, trust = [[1,3],[2,3],[3,1]]
-Output: -1
+Input: left = 1, right = 2147483647
+Output: 0
 ````
 #### Constraints:
-```````
-1 <= n <= 1000
-0 <= trust.length <= 104
-trust[i].length == 2
-All the pairs of trust are unique.
-ai != bi
-1 <= ai, bi <= n
-```````
-
+````
+0 <= left <= right <= 231 - 1
+````
